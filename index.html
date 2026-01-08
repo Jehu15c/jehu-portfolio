@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>jehu &dash; Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">JD</a>
+        <nav class="nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#contact">contact me</a></li>
+
+            </ul>
+            
+        </nav> 
+        <div id="menu-icon">
+    <i class="fa-solid fa-bars"></i>
+</div>
+
+    </header>
+    <section class="hero">
+    <div class="hero-container">
+
+        <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Orjiwulu Jehu Daniel</h1>
+            <h2>I'm a <span class="multiple-text">Student</span></h2>
+            <p>
+                I’m a passionate learner and aspiring web developer who enjoys
+                turning ideas into clean and functional websites. This portfolio
+                showcases my work, projects, and growth.
+            </p>
+            <div class="social-media">
+                <a href="#" class="btn"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#" class="btn"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#" class="btn"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="btn"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="#about" class="btn">Get In Touch</a>
+
+
+        </div>
+<div class="img-box">
+        <div class="hero-image">
+            <img src="me.jpg" alt="Jehu">
+        </div>
+</div>
+    </div>
+</section>
+
+<section class="hero about" id="about">
+    <div class="hero-container">
+<div class="img-box">
+        <div class="hero-image">
+            <img src="me.jpg" alt="Jehu">
+        </div>
+</div>
+        <div class="about-tt">
+
+            <h2>About Me</h2>
+            <h3>I'm a <span class="multiple-text1"></span></h3>
+            <p>
+                I’m a passionate learner and aspiring web developer who enjoys
+                turning ideas into clean and functional websites. This portfolio
+                showcases my work, projects, and growth.
+            </p>
+                <a href="About.html" style="display: inline-block; margin-top: 1rem;" class="btn">Read More</a>
+        </div>
+
+    </div>
+ 
+</section>
+<section class="skills">
+    <h2 class="section-title">My Skills</h2>
+
+    <div class="skills-grid">
+
+        <div class="skill-card">
+            <h3>HTML</h3>
+            <p>Building clean and structured web pages.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>CSS</h3>
+            <p>Styling layouts, animations, and responsive designs.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>JavaScript</h3>
+            <p>Adding interactivity and dynamic behavior.</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Responsive Design</h3>
+            <p>Creating layouts that work on all devices.</p>
+        </div>
+
+    </div>
+</section>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script>
+    const options = {
+        strings: ["Student", "Web Developer", "Tech Enthusiast"],
+        typeSpeed: 200,
+        backSpeed: 100,
+        loop: true
+    };
+const options1 = {
+        strings: ["Student", "Web Developer", "Tech Enthusiast"],
+        typeSpeed: 90,
+        backSpeed: 100,
+        loop: true
+    };
+
+    const typed = new Typed(".multiple-text", options);
+    const typed1 = new Typed(".multiple-text1", options1);
+
+
+    
+const menuIcon = document.getElementById("menu-icon");
+const nav = document.querySelector("nav");
+
+menuIcon.onclick = () => {
+    nav.classList.toggle("active");
+};
+
+
+</script>
+</body>
+</html>
