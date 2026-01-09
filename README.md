@@ -17,7 +17,7 @@ This is my personal portfolio website showcasing my work, projects, and skills a
 - Font Awesome icons
 
 ## Live Demo
-You can view the website live at: 
+You can view the website live at: https://jehu15c.github.io/jehu-portfolio/
 
 ## Author
 - **Orjiwulu Jehu Daniel**
